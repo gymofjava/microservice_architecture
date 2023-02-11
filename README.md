@@ -5,10 +5,10 @@
 
 The sample application has four services namely getSellers, getProducts, addProductToSeller and getCorrelatedLogs. Each of the service created with multiple microservices. You can see the top level architecture of this demo in the image below.
 
-![alt tag](https://github.com/gymofjava/microservice_architecture/blob/master/microservice_demo.png?raw=true)
+![alt tag](https://github.com/gymofjava/microservice_architecture/blob/main/microservice_demo.png?raw=true)
 
 You can see demo video:
-[![Watch the video]](https://github.com/gymofjava/microservice_architecture/blob/master/demo_video.mp4)
+[![Watch the video]](https://github.com/gymofjava/microservice_architecture/blob/main/demo_video.mp4)
 
 
 ### Components Integrated & Tools Usage   
@@ -34,7 +34,7 @@ spring:
         health-check-interval: 10s
 ```
 Consul management console can be accessed at http://localhost:8500/ui/ 
-![alt tag](https://github.com/gymofjava/microservice_architecture/blob/master/consul.png?raw=true)
+![alt tag](https://github.com/gymofjava/microservice_architecture/blob/main/consul.png?raw=true)
 
 ##### API Gateway
    
@@ -47,7 +47,7 @@ Monitoring, visualisation & management of the logs done by splunk enterprise.
 
 splunk enterprise ui can be accessed at http://localhost:7071/   
 
-![alt tag](https://github.com/gymofjava/microservice_architecture/blob/master/splunk.png?raw=true)
+![alt tag](https://github.com/gymofjava/microservice_architecture/blob/main/splunk.png?raw=true)
 
 ##### Asynchronous microservices communication  
 
